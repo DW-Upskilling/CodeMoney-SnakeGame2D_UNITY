@@ -1,2 +1,2 @@
 # CodeMoney-SnakeGame
-YouTube PlaylistId: PLzDRvYVwl53ucaUs0YGfyyKXdgqh5OtiK
+YouTube Playlist: https://www.youtube.com/playlist?list=PLzDRvYVwl53ucaUs0YGfyyKXdgqh5OtiK

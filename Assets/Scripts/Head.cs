@@ -10,10 +10,10 @@ public class Head : MonoBehaviour
     private SignalSpawner spawner;
 
     private void Awake() {
-        gridPosition = new Vector2Int(5,5);
-        gridMaxSize = new Vector2Int(20,20);
+        gridPosition = new Vector2Int(0,0);
+        gridMaxSize = new Vector2Int(50,50);
         direction = new Vector2Int(1,0);
-        timerMax = 1f;
+        timerMax = 0.1f;
         timer = timerMax;
         angle = 270;
     }
@@ -66,6 +66,8 @@ public class Head : MonoBehaviour
             timer -= timerMax;
             gridPosition += direction;
         }
+
+        
 
         transform.position = new Vector3(gridPosition.x, gridPosition.y);
         transform.eulerAngles = new Vector3(0,0,angle);
